@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    background-color: #efefef;
+  }
+  
+  #root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  /*
+  .App {
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 15px gray;
+  } */
+   /*
+  
+  .Header{
+    align-items: center;
+    width: 100%;
+    background-color: #66d8f5;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .Header h1 {
+    font-size: 1.5rem;
+  } 
+  
+  .Header svg {
+    font-size: 2rem;
+  }
+   
+  */
+  .handleName{
+      justify-content: center;
+      background-color: blue;
+      width: 100%;
+      display: grid;
+
+  }
+  .Header {
+    /*padding: 0.75rem; */
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #25c7ef;
+    
+  }
+  .Footer {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #25c7ef;
+    bottom: 0;
+    
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75;
+  }
+  .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0.25rem 0;
+    background-color: #eee;
+  }
+  .item:fist-child{
+    margin: 0;
+  }
+
+  .item input[type ="checkbox"]{
+    text-align: center;
+    width:2.5rem;
+    width: 48px;
+    min-width: 2.5rem;
+    height: 48px;
+    min-height: 48px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+
+  .item input[type ="checkbox"]:focus+label {
+    text-decoration: underline;
+  }
+
+  .item > lable{
+    font-size: 0.75rem;
+    flex-grow: 1;
+  }
+
+  .item svg{
+    width: 48px;
+    min-width: 48px;
+    height: 36px;
+    font-size: 1rem;
+    color: steelblue;
+    cursor: pointer;
+  }
+
+  .item svg:focus,
+  .item svg:hover{
+    color: red;
+    outline: none;
+
+  }
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
