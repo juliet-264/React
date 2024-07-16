@@ -2,7 +2,7 @@ import React from 'react'
 import {IoTrash } from "react-icons/io5";
 
 
-const ItemsList = (item, handleCheck, changeClick) => {
+const ItemsList = ({item, handleCheck, changeClick}) => {
   return (
     <ul>
         {item.map(item => (
